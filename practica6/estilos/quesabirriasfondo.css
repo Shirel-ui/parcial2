@@ -1,0 +1,61 @@
+body{
+	background: url("../img/blanquito.png"),white-space: ;
+	font-family: ventana;
+}
+
+div{
+background: lightblue;
+width: 70%;
+margin: 20px auto;
+padding: 20px;
+border-radius: 20px;
+border: 1px solid pink;
+}
+
+/*centrar titulo y 
+justificar parrafor en cajaprincipal*/
+
+.cajaprincipal h2{
+	text-align: center;
+}
+
+.cajaprincipal p{
+	text-align: justify;
+}
+
+/*centrar todo el texto
+de caja final*/
+
+.cajafinal{
+	text-align: center;
+}
+
+
+div:hover{
+   background: white;
+  color:black;
+  border:1px solid white;
+}
+
+.volver button {
+    padding: 30px 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00a8a8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.volver button:hover {
+    background-color: #007c7c;
+}
+
+.volver a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
